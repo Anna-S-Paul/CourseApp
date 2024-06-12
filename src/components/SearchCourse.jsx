@@ -67,7 +67,9 @@ const SearchCourse = () => {
                         <td>{value.duration}</td>
                         <td>{value.venue}</td>
                         <td>{value.name}</td>
-
+<td>
+  <button className="btn btn-danger">Delete</button>
+</td>
                       </tr>
                     }
                   )
